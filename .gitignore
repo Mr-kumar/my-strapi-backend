@@ -14,7 +14,8 @@ node_modules/
 /.cache/
 
 # Strapi specific
-/public/uploads/
+/public/uploads/*
+!/public/uploads/.gitkeep
 /.cache/
 /.tmp/
 
