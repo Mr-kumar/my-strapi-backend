@@ -34,11 +34,20 @@ yarn build
 
 ## ⚙️ Deployment
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+This Strapi backend is deployed on **Railway** and integrated with a **Next.js frontend on Vercel**.
 
+### 🚀 Railway Deployment
+- **Live URL**: `https://my-strapi-backend-production-da92.up.railway.app`
+- **Admin Panel**: `https://my-strapi-backend-production-da92.up.railway.app/admin`
+- **API Endpoint**: `https://my-strapi-backend-production-da92.up.railway.app/api`
+
+### 🔗 Frontend Integration (Vercel)
+Add this environment variable to your Vercel project:
 ```
-yarn strapi deploy
+NEXT_PUBLIC_STRAPI_API_URL=https://my-strapi-backend-production-da92.up.railway.app
 ```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed setup instructions.
 
 ## 📚 Learn more
 
