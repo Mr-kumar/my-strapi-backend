@@ -47,6 +47,15 @@ Add this environment variable to your Vercel project:
 NEXT_PUBLIC_STRAPI_API_URL=https://my-strapi-backend-production-da92.up.railway.app
 ```
 
+## 🗄️ Database Setup
+
+This project automatically uses the appropriate database based on the environment:
+
+- **Railway/Production**: PostgreSQL (via `DATABASE_URL` environment variable)
+- **Local Development**: SQLite (via `DATABASE_FILENAME` in `.env`)
+
+No additional setup required! The configuration automatically detects which database to use.
+
 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed setup instructions.
 
 ## 📚 Learn more
