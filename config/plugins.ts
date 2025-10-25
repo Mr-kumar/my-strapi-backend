@@ -1,5 +1,3 @@
-export default () => ({
-  transfer: {
-    enabled: true,
-  },
-});
+export default () => ({});
+
+
